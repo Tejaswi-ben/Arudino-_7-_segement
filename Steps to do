@@ -1,0 +1,57 @@
+Step 1: Open an Arduino Project on wowki
+       -> https://wokwi.com/
+       -> click new project
+       -> choose aurdino uno
+Step 2: Add Components
+      -> click +
+      -> search for 7 segment
+      -> choose 7 Segment Display (Common Cathode)
+Step 3: Understand the Display
+       -> Each letter is one LED.
+       A                      
+    -----
+ F |     | B
+   |  G  |
+    -----
+ E |     | C
+   |     |
+    -----
+      D
+Step 4: Wiring
+| Arduino Pin | Segment |
+| ----------- | ------- |
+| 12          | A       |
+| 11          | B       |
+| 10          | C       |
+| 9           | D       |
+| 8           | E       |
+| 7           | F       |
+| 6           | G       |
+  -> connect COM1 → GND
+             COM2 → GND
+   -> Ignpre DP
+Step 6: Code Writing
+      -> Replace everything in "sketch.ino" with your program.
+      -> Click Save
+Step 7 : Compile
+      -> Click "Start Simulation"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
